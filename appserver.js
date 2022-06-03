@@ -40,7 +40,7 @@ app.get('/api/:name',(req,res)=>{
     if(footballers[Footballer_name]){
         res.json(footballers[Footballer_name])
     }else{
-        res.json(Footballer_name['unknown'])
+        res.json(footballers['unknown'])
     }
 })
 
